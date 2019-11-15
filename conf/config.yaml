@@ -4,7 +4,14 @@ auth:
     file: /verdaccio/storage/htpasswd
 uplinks:
   npmjs:
-    url: http://registry.npm.taobao.org
+    url: https://registry.npm.taobao.org
+    #url: https://registry.npmjs.org/
+    maxage: 10m
+    timeout: 30s
+    max_fails: 5
+    fail_timeout: 10m
+    cache: true
+
 
 packages:
   '@*/*':
@@ -13,6 +20,7 @@ packages:
     proxy: npmjs
   '**':
     access: $all
+    publish: $authenticated
     proxy: npmjs
 logs:
   - {type: stdout, format: pretty, level: http}
