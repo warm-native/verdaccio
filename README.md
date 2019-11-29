@@ -13,7 +13,7 @@
 
 ## Diretory Arch
 * docker-compose.yml   docker-compose主配置文件
-* conf/     verdaccio的配置文件
+* conf/config.yaml     verdaccio的配置文件
 * storage/  verdaccio的存储目录
 ## How to start
 
