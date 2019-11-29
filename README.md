@@ -12,7 +12,7 @@
   ```
 
 ## Diretory Arch
-* docker-compose.yml   docker-compose主配置文件
+* docker-compose.yml   docker-compose主配置文件, 默认verdaccio的版本是latest
 * conf/config.yaml     verdaccio的配置文件
 * storage/  verdaccio的存储目录
 ## How to start
