@@ -21,6 +21,20 @@
 $ docker-compose up
 ```
 
+## Then
+1. cache npmjs.org
+```
+$ npm registry http://[verdaccio-ip]:4873
+```
+_注_: `verdaccio-ip` need change to real ip. 
+
+
+2. publish package, flow as below
+
+![Image](images/verdaccio-publish.png)
+
+Enjoy it.
+
 ## Remove
 
 ```
