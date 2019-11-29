@@ -8,7 +8,7 @@
 * docker-compose
 * You need create storage diretory in current root directory
   ```
-  $ make storage
+  $ mkdir storage
   ```
 
 ## Diretory Arch
