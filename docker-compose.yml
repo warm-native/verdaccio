@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   verdaccio:
-    image: verdaccio/verdaccio
+    image: verdaccio/verdaccio:4
     container_name: "verdaccio"
     networks:
       - node-network
