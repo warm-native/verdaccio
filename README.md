@@ -17,11 +17,21 @@
 * docker-compose.yml   docker-compose主配置文件, 默认verdaccio的版本是latest
 * conf/config.yaml     verdaccio的配置文件
 * storage/  verdaccio的存储目录
+
 ## How to start
 
 ```
-$ docker-compose up
+$ docker-compose pull
+$ docker-compose start
 ```
+
+## How to check log
+
+```
+$ docker-compose logs -f verdaccio
+```
+
+_注_: You should make sure you're in the `verdaccio` directory, then you can run commands related to `docker-compose`.
 
 ## Then
 1. cache npmjs.org
