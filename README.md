@@ -8,6 +8,8 @@
 * docker-compose
 * You need create storage diretory in current root directory
   ```
+  $ git clone https://github.com/Kubernetes-Best-Pratice/verdaccio.git
+  $ cd verdaccio
   $ mkdir storage
   ```
 
