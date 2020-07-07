@@ -13,6 +13,7 @@
   $ mkdir storage
   $ chmod 777 storage
   ```
+  > Confirm the dir of `storage` have write permission.
 
 ## Diretory Arch
 * docker-compose.yml   docker-compose主配置文件, 默认verdaccio的版本是latest
