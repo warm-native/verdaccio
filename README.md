@@ -11,6 +11,7 @@
   $ git clone https://github.com/Kubernetes-Best-Pratice/verdaccio.git
   $ cd verdaccio
   $ mkdir storage
+  $ chmod 777 storage
   ```
 
 ## Diretory Arch
