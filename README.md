@@ -55,3 +55,7 @@ Enjoy it.
 $ docker-compose stop
 $ docker-compose rm
 ```
+
+## More Information
+1. https://github.com/verdaccio/verdaccio/tree/master/docker-examples/v4/docker-local-storage-volume
+
